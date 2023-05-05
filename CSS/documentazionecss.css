@@ -1,0 +1,137 @@
+header {
+    background-color: #119DA4;
+    color: black;
+    height: 125px;
+    padding: 1.3% 0px 0px 0px;
+}
+.homeimg {
+    height: 16%;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    right: 20px;
+    bottom: 10px;
+}
+#first {
+    padding-left: 150px;
+}
+nav ul li {
+    display: inline-block;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: large;
+    letter-spacing: 0.15em;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 0;
+    padding-top: 80px;
+}
+body {
+    margin: 0px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: large;
+    background-color: #fbf6e9;
+    line-height: 1.5em;
+    scroll-behavior: smooth;
+}
+h1 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: 800;
+    font-size: 300%;
+    text-align: center;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 115%;
+    text-align: center;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 95%;
+    text-align: center;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 85%;
+    text-decoration: underline;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font:70%;
+    line-height: 1,5em;
+}
+.wireframe {
+    height:400px;
+    width: auto;
+    padding-left: 10%;
+}
+.wireframearch {
+    height:200px;
+    width: auto;
+    padding-left: 10%;
+}
+.whitelink {
+    color: #fbf6e9;
+    background-color: #119DA4;
+    text-decoration: none;
+}
+.active{
+    color:#119da4; 
+    background-color:#fbf6e9;
+    border-radius: 5px 5px 0px 0px;
+}
+.nounderline {
+    text-decoration: none;
+    padding:10px 10px 0px 10px;
+}
+footer {
+    background-color: #119da4;
+    margin: 0px;
+    border-top: 95%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 3000;
+    font-size: medium;
+    text-align: left;
+    color: black;
+}
+.menufooter {
+    display: inline-block;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: medium;
+    letter-spacing: 0.15em;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 0;
+    padding-left: 200px;
+}
+section {
+    padding: 5% 5% 0px 5%;
+}
+.section-title-documentazione {
+    background: #89023e;
+    font-size:20px;
+    color: #ffd9da;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+  
+  }
+.imgperetapg {
+    width:auto;
+    height: 450px;
+}
+.imgpergenerepg {
+    width: auto;
+    height: 450px;
+}
+
+  
+  
