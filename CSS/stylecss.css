@@ -10,6 +10,8 @@ section {
 .homeimg {
     height: 16%;
     width: auto;
+    max-height:fit-content;
+    max-width:fit-content;
     position: absolute;
     top: 0.5%;
     left: 3.5%;
