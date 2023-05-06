@@ -16,7 +16,8 @@ section {
 }
 .imgperetapg {
     height: auto;
-    width: 50%;
+    width: 95%;
+    padding-left: 50px;
 }
 .imgpergenerepg {
     height: auto;
