@@ -3,6 +3,7 @@ header {
     color: black;
     height: 125px;
     padding: 6.5% 0px 0px 0px;
+    display: flex;
 }
 section {
     padding: 2% 2% 0 2%;
@@ -31,7 +32,6 @@ section {
     padding-bottom: 15px;
     width: auto;
     height: 5%;
-  
 }
 aside {
     text-align: right;
@@ -41,7 +41,7 @@ nav ul li {
     display: inline-block;
     font-family:'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size: large;
+    font-size:medium;
     letter-spacing: 0.15em;
     text-align: center;
     padding-right: 30px;
