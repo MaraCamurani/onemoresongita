@@ -1,43 +1,12 @@
-@media screen and (min-width: 1024px) {
-    .homeimg {
-    margin: auto;
-    height: 16%;
-    width: auto;
-    position: absolute;
-    top: 0.5%;
-    left: 3.5%;
-    right: 20%;
-    bottom: 2%;
-    }
-}
-@media screen and (max-width: 767px) {
-    .homeimg {
-    margin: auto;
-    height: 5%;
-    width: auto;
-    }
-}
-
 header {
     background-color: #119DA4;
     color: black;
     height: 125px;
     padding: 6.5% 0px 0px 0px;
-    display: flex;
 }
+
 section {
     padding: 2% 2% 0 2%;
-}
-.homeimg {
-    height: 16%;
-    width: auto;
-    max-height:fit-content;
-    max-width:fit-content;
-    position: absolute;
-    top: 0.5%;
-    left: 3.5%;
-    right: 20%;
-    bottom: 2%;
 }
 .imgperetapg {
     height: auto;
@@ -56,6 +25,12 @@ section {
 aside {
     text-align: right;
     padding-right: 14%;
+}
+
+@media screen and (max-width: 767px) {
+    .flex-container {
+        display:flex;
+    }
 }
 nav ul li {
     display: inline-block;
@@ -118,7 +93,7 @@ footer {
     display: inline-block;
     font-family:'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: small;
+    font-size: medium;
     letter-spacing: 0.15em;
     text-align: center;
     padding-right: 30px;
