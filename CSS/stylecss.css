@@ -90,9 +90,9 @@ footer {
     background-color: #119da4;
     margin: 0px;
     border-top: 95%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 3000;
-    font-size:small;
+    font-size:medium;
     text-align: left;
     color: black;
 }
@@ -139,4 +139,11 @@ footer {
   .card-img-top .card-img-top {
     width:fit-content;
     height: auto;
+  }
+  .services-item-footer {
+    background: #26AFB6;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: left;
   }
