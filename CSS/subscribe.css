@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-div {
+.box {
     color:#119DA4;
     font: 1.5rem;
     text-align: center;
@@ -10,4 +10,14 @@ div {
 .btn {
     background-color:#119DA4;
     border-color:#119DA4;
+}
+footer {
+    background-color: #119da4;
+    margin: 0px;
+    border-top: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3000;
+    font-size:medium;
+    text-align: left;
+    color: black;
 }

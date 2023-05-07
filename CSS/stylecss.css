@@ -19,6 +19,7 @@ header {
 section {
     padding: 2% 2% 0 2%;
 }
+
 .imgperetapg {
     height: auto;
     width: 60%;
@@ -58,6 +59,11 @@ body {
     background-color: #fbf6e9;
     line-height: 1.5em;
     scroll-behavior: smooth;
+}
+.classegrassetto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
 }
 h1 {
     font-family: 'Delicious Handrawn', cursive;
