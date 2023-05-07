@@ -10,18 +10,20 @@ header {
     color: black;
     height: 125px;
     padding: 6.5% 0px 0px 0px;
+    display: inline;
 }
 section {
     padding: 2% 2% 0 2%;
 }
 .imgperetapg {
     height: auto;
-    width: 95%;
-    padding-left: 50px;
+    width: 60%;
+    vertical-align: middle;
 }
 .imgpergenerepg {
     height: auto;
-    width: 50%;
+    width: 60%;
+    vertical-align: middle;
 }
 .socialimg {
     position: right;
@@ -33,7 +35,7 @@ aside {
     text-align: right;
     padding-right: 14%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     .flex-container {
         display:flex;
     }
@@ -94,6 +96,7 @@ footer {
     font-size:small;
     text-align: left;
     color: black;
+    display: inline;
 }
 .menufooter {
     display: inline-block;
