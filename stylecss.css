@@ -1,26 +1,24 @@
+.container-fluid {
+    width:100%;
+    padding-right: 15px;
+    padding-left:15px;
+    margin-right: auto;
+    margin-left:auto;
+}
 header {
     background-color: #119DA4;
     color: black;
     height: 125px;
     padding: 6.5% 0px 0px 0px;
+    display: inline;
 }
 section {
     padding: 2% 2% 0 2%;
 }
-.homeimg {
-    height: 16%;
-    width: auto;
-    max-height:fit-content;
-    max-width:fit-content;
-    position: absolute;
-    top: 0.5%;
-    left: 3.5%;
-    right: 20%;
-    bottom: 2%;
-}
 .imgperetapg {
     height: auto;
-    width: 50%;
+    width: 95%;
+    padding-left: 50px;
 }
 .imgpergenerepg {
     height: auto;
@@ -36,6 +34,11 @@ aside {
     text-align: right;
     padding-right: 14%;
 }
+@media screen and (max-width: 767px) {
+    .flex-container {
+        display:flex;
+    }
+}
 nav ul li {
     display: inline-block;
     font-family:'Montserrat', sans-serif;
@@ -43,7 +46,7 @@ nav ul li {
     font-size:medium;
     letter-spacing: 0.15em;
     text-align: center;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-bottom: 0;
 }
 body {
@@ -89,20 +92,21 @@ footer {
     border-top: 95%;
     font-family: 'Roboto', sans-serif;
     font-weight: 3000;
-    font-size:medium;
+    font-size:small;
     text-align: left;
     color: black;
+    display: inline;
 }
 .menufooter {
     display: inline-block;
     font-family:'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: medium;
+    font-size: small;
     letter-spacing: 0.15em;
     text-align: center;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-bottom: 0;
-    padding-left: 200px;
+    padding-left: 75px;
 }
 .whitelink {
     color: #fbf6e9;
