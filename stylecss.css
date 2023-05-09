@@ -5,24 +5,30 @@
     margin-right: auto;
     margin-left:auto;
 }
+@media screen and (max-width: 767px) {
+    .flex-container {
+        display:flex;
+    }
+}
 header {
     background-color: #119DA4;
     color: black;
     height: 125px;
     padding: 6.5% 0px 0px 0px;
-    display: inline;
 }
 section {
     padding: 2% 2% 0 2%;
 }
+
 .imgperetapg {
     height: auto;
-    width: 95%;
-    padding-left: 50px;
+    width: 60%;
+    vertical-align: middle;
 }
 .imgpergenerepg {
     height: auto;
-    width: 50%;
+    width: 60%;
+    vertical-align: middle;
 }
 .socialimg {
     position: right;
@@ -33,11 +39,6 @@ section {
 aside {
     text-align: right;
     padding-right: 14%;
-}
-@media screen and (max-width: 767px) {
-    .flex-container {
-        display:flex;
-    }
 }
 nav ul li {
     display: inline-block;
@@ -58,6 +59,11 @@ body {
     background-color: #fbf6e9;
     line-height: 1.5em;
     scroll-behavior: smooth;
+}
+.classegrassetto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
 }
 h1 {
     font-family: 'Delicious Handrawn', cursive;
@@ -90,18 +96,16 @@ footer {
     background-color: #119da4;
     margin: 0px;
     border-top: 95%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 3000;
-    font-size:small;
+    font-size:medium;
     text-align: left;
     color: black;
-    display: inline;
 }
 .menufooter {
-    display: inline-block;
-    font-family:'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: small;
+    font-family:'Roboto' , sans-serif;
+    font-weight: 400;
+    font-size:x-small;
     letter-spacing: 0.15em;
     text-align: center;
     padding-right: 20px;
@@ -140,4 +144,11 @@ footer {
   .card-img-top .card-img-top {
     width:fit-content;
     height: auto;
+  }
+  .services-item-footer {
+    background: #26AFB6;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: left;
   }
