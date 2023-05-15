@@ -10,11 +10,13 @@
         display:flex;
     }
 }
+.navbar-brand {
+    padding-right: 90px;
+}
 header {
     background-color: #119da4;
     color:black;
     height: 125px;
-    padding: 6.5% 0px 0px 0px;
 }
 section {
     padding: 2% 2% 0 2%;
@@ -32,9 +34,9 @@ nav ul li {
     display: inline-block;
     font-family:'Montserrat', sans-serif;
     font-weight: 1000;
-    font-size:medium;
+    font-size:large;
     letter-spacing: 0.15em;
-    padding-right: 20px;
+    padding-right: 40px;
     padding-bottom: 0;
 }
 .flex-container {
@@ -124,7 +126,15 @@ footer {
 .wireframearch {
     height:200px;
     width: auto;
-    
+}
+.google {
+    height: 580px;
+    width: auto;
+}
+.instagram {
+    height: 380px;
+    width: auto;
+    margin-left: -5%;
 }
 .section-title-documentazione {
     background: #89023e;

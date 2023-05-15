@@ -114,10 +114,10 @@ footer {
 .menufooter {
     display: inline-block;
     font-family:'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: small;
+    font-weight: 500;
+    font-size: xx-small;
     letter-spacing: 0.15em;
-    text-align: center;
+    text-align: left;
     padding-right: 20px;
     padding-bottom: 0;
     padding-left: 75px;
